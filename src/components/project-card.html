@@ -1,0 +1,26 @@
+<article class="project-card" id="{{ID}}" aria-labelledby="{{ID}}-title">
+  <div class="project-overview">
+    <div class="project-visual" aria-label="Conceptual data path from operational data through SQL Server to an Ignition interface">
+      <div class="visual-topline"><span>DATA → INTERFACE</span><span aria-hidden="true">{{NUMBER}} / SYSTEMS</span></div>
+      <div class="data-path">
+        <div class="data-node"><span class="node-symbol" aria-hidden="true">↳</span><div><strong>Operational data</strong><small>Water · Consumption · NRW</small></div></div>
+        <div class="path-connector" aria-hidden="true"></div>
+        <div class="data-node node-database"><span class="database-symbol" aria-hidden="true"></span><div><strong>SQL Server</strong><small>Structure · Procedures · Queries</small></div></div>
+        <div class="path-connector" aria-hidden="true"></div>
+        <div class="data-node"><span class="node-symbol" aria-hidden="true">⌘</span><div><strong>Ignition interface</strong><small>Data with operational context</small></div></div>
+      </div>
+      <p class="visual-caption">Conceptual workflow</p>
+    </div>
+    <div class="project-copy">
+      <p class="eyebrow">{{EYEBROW}}</p>
+      <p class="project-status"><span class="status-dot" aria-hidden="true"></span>{{STATUS}}</p>
+      <h3 id="{{ID}}-title">{{TITLE}}</h3>
+      <p>{{SUMMARY}}</p>
+      <ul class="tags" aria-label="Project technologies">{{TAGS}}</ul>
+    </div>
+  </div>
+  <details class="project-details">
+    <summary><span>Explore my contribution</span><span class="detail-plus" aria-hidden="true">+</span></summary>
+    <dl class="detail-grid">{{DETAILS}}</dl>
+  </details>
+</article>

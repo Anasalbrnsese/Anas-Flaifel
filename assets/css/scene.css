@@ -1,0 +1,32 @@
+.engineering-lab { display: grid; grid-template-columns: 1.5fr 1fr; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--panel); }
+.scene-stage { min-width: 0; display: flex; flex-direction: column; background: radial-gradient(ellipse at 50% 55%, #202936, #0d1118 75%); }
+.scene-topline, .scene-bottomline { padding: 25px 27px; display: flex; justify-content: space-between; align-items: center; gap: 15px; font-family: var(--mono); font-size: .64rem; letter-spacing: .06em; color: #adb5c0; }
+.demo-badge { color: var(--lime); border: 1px solid #d5f26b50; border-radius: 3px; padding: 4px 7px; font-size: .6rem; }
+.scene-viewport { flex: 1; min-height: 360px; position: relative; }
+.scene-fallback, .webgl-host { position: absolute; inset: 0; display: grid; align-items: center; }
+.gate-diagram { display: block; width: 100%; height: auto; }
+.webgl-host canvas { display: block; width: 100%; height: 100%; }
+.scene-bottomline { border-top: 1px solid #ffffff0d; font-size: .58rem; padding-block: 18px; }
+.scene-panel { padding: 32px; border-left: 1px solid var(--line); }
+.scene-panel h3 { font-size: clamp(1.7rem, 2.6vw, 2.35rem); line-height: 1.15; margin-bottom: 20px; }
+.scene-panel > p:not(.eyebrow) { color: var(--muted); font-size: .85rem; }
+.gate-readout { display: flex; justify-content: space-between; align-items: center; margin-top: 28px; margin-bottom: 12px; font-size: .8rem; color: #bdc2cb; }
+.gate-readout strong { font-family: var(--mono); font-size: 1.3rem; color: var(--lime); font-weight: 400; }
+input[type="range"] { display: block; width: 100%; height: 28px; margin: 0; accent-color: var(--lime); }
+.range-labels { display: flex; justify-content: space-between; font-family: var(--mono); font-size: .6rem; color: var(--muted); }
+.control-help { font-size: .72rem; color: var(--muted); margin-top: 10px; }
+.scene-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+.scene-actions .button { padding-inline: 15px; font-size: .75rem; }
+.camera-controls { border-top: 1px solid var(--line); padding-top: 18px; margin-top: 20px; font-size: .78rem; }
+.camera-controls label { display: block; margin-bottom: 10px; }
+.text-button { border: 0; background: none; color: var(--lime); min-height: 44px; padding: 8px 0; font-size: .8rem; text-decoration: underline; text-underline-offset: 4px; }
+.scene-status { min-height: 2.8em; font-size: .72rem; color: var(--muted); line-height: 1.6; margin: 16px 0 0; }
+.scene-panel .demo-note { border-top: 1px solid var(--line); padding-top: 16px; margin: 22px 0 0; font-size: .7rem !important; }
+@media (max-width: 1000px) { .engineering-lab { grid-template-columns: 1.2fr 1fr; } .scene-panel { padding: 25px; } }
+@media (max-width: 900px) {
+  .engineering-lab { grid-template-columns: 1fr; }
+  .scene-viewport { min-height: 300px; }
+  .scene-panel { border-left: 0; border-top: 1px solid var(--line); padding: 28px 24px; }
+  .scene-topline, .scene-bottomline { padding-inline: 20px; }
+  .scene-bottomline { flex-wrap: wrap; gap: 7px; font-size: .55rem; }
+}

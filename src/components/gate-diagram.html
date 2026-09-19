@@ -1,0 +1,31 @@
+<svg viewBox="0 0 680 440" role="img" aria-labelledby="gate-svg-title gate-svg-description" class="gate-diagram">
+  <title id="gate-svg-title">Gate opening schematic</title>
+  <desc id="gate-svg-description">An illustrative vertical gate, shown 45 percent open. The opening changes with the slider.</desc>
+  <defs>
+    <pattern id="engineering-grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#a7b7c9" stroke-opacity=".08"/></pattern>
+    <linearGradient id="water-color" x2="0" y2="1"><stop stop-color="#69b6c2" stop-opacity=".35"/><stop offset="1" stop-color="#325566" stop-opacity=".1"/></linearGradient>
+    <linearGradient id="gate-color" x2="1" y2="1"><stop stop-color="#d5f26b"/><stop offset="1" stop-color="#83993d"/></linearGradient>
+    <clipPath id="gate-aperture"><rect x="227" y="126" width="226" height="209"/></clipPath>
+  </defs>
+  <rect width="680" height="440" fill="url(#engineering-grid)"/>
+  <path d="M78 354H602M110 372H570" stroke="#667384" stroke-width="1" fill="none"/>
+  <rect x="99" y="276" width="482" height="64" fill="url(#water-color)"/>
+  <g stroke="#69b6c2" stroke-width="2" fill="none" opacity=".6"><path d="M111 296h69m-24-7 24 7-24 7M498 311h62m-22-7 22 7-22 7M109 320h44"/></g>
+  <path d="M203 340V111H477V340M223 340V132H457V340" fill="none" stroke="#75808d" stroke-width="8"/>
+  <rect x="190" y="340" width="300" height="14" rx="2" fill="#4b525e"/>
+  <rect x="194" y="99" width="292" height="26" rx="4" fill="#343a46" stroke="#8e99a8"/>
+  <rect x="328" y="60" width="24" height="39" rx="3" fill="#929d6e"/>
+  <ellipse cx="340" cy="60" rx="44" ry="9" fill="#14191f" stroke="#d5f26b" stroke-width="4"/>
+  <path d="M300 60h80M340 51v18" stroke="#d5f26b" stroke-width="3"/>
+  <g clip-path="url(#gate-aperture)">
+    <g id="diagram-gate" transform="translate(0 -90)">
+      <rect x="230" y="136" width="220" height="200" rx="3" fill="url(#gate-color)" stroke="#e0f5a0"/>
+      <path d="M242 153h196M242 208h196M242 262h196M242 318h196" stroke="#414b28" stroke-width="7" opacity=".6"/>
+      <path d="M252 149V321M428 149V321" stroke="#edf7c9" opacity=".4" stroke-width="4"/>
+    </g>
+  </g>
+  <path d="M339 99V239" stroke="#d4dfbc" stroke-width="5" id="diagram-stem"/>
+  <g stroke="#a977ff" fill="none"><path d="M518 135h30M518 335h30M538 135V335" stroke-dasharray="4 5"/><path d="m534 142 4-7 4 7m-8 186 4 7 4-7"/></g>
+  <g fill="#a6acb8" font-family="monospace" font-size="11" letter-spacing="1"><text x="98" y="257">CHANNEL</text><text x="496" y="365">FRONT VIEW</text><text x="99" y="406">CONCEPT / VERTICAL LIFT GATE</text></g>
+</svg>
+

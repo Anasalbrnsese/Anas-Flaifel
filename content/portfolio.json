@@ -1,0 +1,115 @@
+{
+  "profile": {
+    "name": "Anas Flaifel",
+    "title": "SCADA & IoT Engineer",
+    "company": "Spacia Systems",
+    "intro": "I connect operational data with clear, useful interfaces. At Spacia Systems, I work with Ignition and SQL Server on water-sector applications in Jordan.",
+    "about": "My core work brings together SCADA, databases, and IoT. I design database structures, develop application scripts, and connect Ignition interfaces to the data behind them.",
+    "aboutMore": "Alongside this work, I use Blender to create equipment models and bring them into SCADA through rendered animation frames. SVG-based 2.5D graphics offer another way to make industrial interfaces easier to understand.",
+    "email": "anasalbrnsese@gmail.com"
+  },
+  "projects": [
+    {
+      "id": "water-scada",
+      "number": "01",
+      "eyebrow": "Selected engineering work",
+      "title": "Water infrastructure SCADA development",
+      "summary": "Database and interface development across two ongoing water-sector projects, working with operational, consumption, and non-revenue water (NRW) data.",
+      "status": "In development · Two projects",
+      "tags": [
+        "Ignition",
+        "Microsoft SQL Server",
+        "Application scripting"
+      ],
+      "details": [
+        [
+          "Project",
+          "SCADA and operational-data applications for water infrastructure in Jordan. This overview brings together my responsibilities across two ongoing projects."
+        ],
+        [
+          "My contribution",
+          "Database structure design, Ignition database integration, frontend interface development, and backend application scripting."
+        ],
+        [
+          "Engineering scope",
+          "Working with large volumes of water-sector operational data, including consumption and non-revenue water (NRW) information."
+        ],
+        [
+          "Technologies",
+          "Ignition and Microsoft SQL Server, with stored procedures, indexes, queries, and application scripts."
+        ],
+        [
+          "Challenge",
+          "Keeping data access efficient and application logic maintainable as the volume of operational data grows."
+        ],
+        [
+          "Implementation",
+          "Organizing database structures, using stored procedures to handle database-side logic, and applying indexing and query optimization to support the SCADA application."
+        ],
+        [
+          "Supported result",
+          "Both projects are in development. Database and interface work is ongoing; final delivery and measured outcomes are not yet available."
+        ]
+      ]
+    }
+  ],
+  "capabilities": [
+    {
+      "number": "01",
+      "title": "Data & backend",
+      "body": "SQL Server database design and integration, with stored procedures, indexing, and query optimization for large operational datasets.",
+      "tags": [
+        "Microsoft SQL Server",
+        "Stored procedures",
+        "Query optimization"
+      ]
+    },
+    {
+      "number": "02",
+      "title": "SCADA & interfaces",
+      "body": "Ignition interfaces connected to operational data, supported by frontend and backend scripting. SCADA and IoT form the core of my current work.",
+      "tags": [
+        "Ignition",
+        "Application scripting",
+        "IoT"
+      ]
+    },
+    {
+      "number": "03",
+      "title": "Engineering visualization",
+      "body": "Blender models, rendered animation frames, and SVG-based 2.5D graphics for modern SCADA interfaces.",
+      "tags": [
+        "Blender",
+        "Frame animation",
+        "SVG / 2.5D"
+      ]
+    }
+  ],
+  "supporting": [
+    {
+      "title": "Networking",
+      "body": "Practical experience with routing."
+    },
+    {
+      "title": "Workflow automation",
+      "body": "Introductory hands-on experience with n8n."
+    }
+  ],
+  "certificates": [
+    {
+      "title": "Cybersecurity and Cloud Fundamentals",
+      "version": "1.0 · Self-paced",
+      "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_cybersecurity-and-cloud-fundamentals"
+    },
+    {
+      "title": "Introduction to Next Generation Firewall",
+      "version": "1.0 · Self-paced",
+      "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_introduction-to-next-generation-firewall"
+    },
+    {
+      "title": "FortiGate Operator",
+      "version": "7.6 · Self-paced",
+      "url": "https://training.fortinet.com/local/staticpage/view.php?page=library_fortigate-operator"
+    }
+  ]
+}
